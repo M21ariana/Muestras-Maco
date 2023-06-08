@@ -12,5 +12,24 @@
     "node-fetch": "^3.3.1",
     "nodemon": "^2.0.22",
     "sequelize": "5.21"
-  }
+  },
+  "name": "muestras-maco",
+  "description": "Inventario para almacenar las muestras de un laboratorio de materiales compuestos. Saber cuántas muestras hay en el momento y cuánto tiempo se mantienen almacenadas.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M21ariana/Muestras-Maco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M21ariana/Muestras-Maco/issues"
+  },
+  "homepage": "https://github.com/M21ariana/Muestras-Maco#readme"
 }
