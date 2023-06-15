@@ -10,6 +10,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -15vh
 }
 header .logo .imgLogo{
     width: 90px
@@ -27,4 +28,8 @@ header .registros ul {
 
 header .registros ul li{
     margin-right: 19px;
+}
+main {
+    margin-top: 15vh;
+     
 }
