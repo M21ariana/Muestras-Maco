@@ -2,6 +2,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "express-validator": "^7.0.1",
@@ -17,7 +18,6 @@
   "description": "Inventario para almacenar las muestras de un laboratorio de materiales compuestos. Saber cuántas muestras hay en el momento y cuánto tiempo se mantienen almacenadas.",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon ./src/app.js"
   },

@@ -17,7 +17,7 @@ app.use(session({
     saveUninitialized: true
 }));
  
-const routeHome = require("../src/routes/routeHome")
+const routeHome = require("./routes/routeHome")
 
 app.listen(3000, ()=>{
     console.log("servidor activo en el puerto 3000");
