@@ -16,7 +16,11 @@ app.use(session({
     resave :true,
     saveUninitialized: true
 }));
+ 
+const routeHome = require("./routes/routeHome")
 
 app.listen(3000, ()=>{
     console.log("servidor activo en el puerto 3000");
 });
+
+app.use("/", routeHome);
