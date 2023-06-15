@@ -18,9 +18,11 @@ app.use(session({
 }));
  
 const routeHome = require("./routes/routeHome")
+const routeLogin = require("./routes/routeLogin");
 
 app.listen(3000, ()=>{
     console.log("servidor activo en el puerto 3000");
 });
 
 app.use("/", routeHome);
+app.use("/", routeLogin);

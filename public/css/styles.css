@@ -1,7 +1,9 @@
 body{
+    display: flex;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: medium;
+    justify-content: space-around;
 }
 header{
     width: 100%;
@@ -10,7 +12,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: -15vh
 }
 header .logo .imgLogo{
     width: 90px
@@ -30,6 +31,40 @@ header .registros ul li{
     margin-right: 19px;
 }
 main {
-    margin-top: 15vh;
+    margin-top: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: center;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 36px;
+    width: 60%;
      
+}
+.formularioLogin{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: auto;
+}
+.inputLogin {
+    margin-bottom: 7px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 4px rgba(4, 213, 228, 02);
+}
+.botonIngresar{
+    display: flex;
+    margin-top: 7px;
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 3px rgba(4, 213, 228, 02);
+    align-items: center;
+    justify-content: center;
+}
+.divBoton{
+    display: flex;
+    justify-content: center;
 }

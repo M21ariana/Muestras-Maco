@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<%- include("./partials/head/head") %>
+<body>
+    <%- include("./partials/header/header") %>
+    <main class="iniciarSesion">
+        <h2>Iniciar Sesión</h2>
+        <form class="formularioLogin">
+            <label for="nombreUsuario"></label>
+            <input class="inputLogin" type="text" placeholder="Nombre de usuari@:" name="usuario" id="nombreUsuario">
+
+            <label for="contrasena"></label>
+            <input class="inputLogin" type="password" placeholder="Contraseña:" name="contrasena" id="contrasena">
+            <div class="divBoton">
+                <button class= "botonIngresar"type="submit">Ingresar</button>
+            </div>
+          
+        </form>
+    </main>
+    
+</body>
+</html>
