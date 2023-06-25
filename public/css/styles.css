@@ -43,6 +43,23 @@ main {
     width: 60%;
      
 }
+
+
+main .contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main .contenedor .btnRegistro{
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
 .formularioLogin{
     display: flex;
     flex-direction: column;
